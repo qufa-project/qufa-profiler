@@ -189,6 +189,9 @@ public class ProfileService {
             Date date;
             for (DateFormat df : dfs) {
                 try {
+                    if (rowVal == null || rowVal.isEmpty()) {
+                        throw new ParseException("", 0);
+                    }
                     date = df.parse(rowVal);
                     rowType.put(rowVal, "date");
                     break;
