@@ -157,6 +157,10 @@ public class ProfileService {
 
         int i = 0;
 
+        if (isHeader) {
+            rowValues.remove(0);
+        }
+
         for (String rowVal : rowValues) {
             if (rowVal.trim().equals("")) {
                 continue;
