@@ -197,6 +197,9 @@ public class ProfileService {
                     break;
                 } catch (ParseException e) {
                     try {
+                        if (rowVal.length() > 14 || rowVal.startsWith("0")) {
+                            throw new NumberFormatException();
+                        }
                         Double.parseDouble(rowVal);
                         rowType.put(rowVal, "number");
                     } catch (NumberFormatException ex) {
