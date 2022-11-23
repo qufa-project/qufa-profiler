@@ -1,4 +1,4 @@
-package com.QuFa.profiler.model.request;
+package com.QuFa.profiler.domain.request;
 
 import lombok.Getter;
 import lombok.ToString;

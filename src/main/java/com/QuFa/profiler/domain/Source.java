@@ -1,4 +1,4 @@
-package com.QuFa.profiler.model;
+package com.QuFa.profiler.domain;
 
 import lombok.Getter;
 import lombok.Setter;

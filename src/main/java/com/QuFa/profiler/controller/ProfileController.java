@@ -1,12 +1,10 @@
 package com.QuFa.profiler.controller;
 
-import com.QuFa.profiler.model.Local;
-import com.QuFa.profiler.model.response.ProfileTableResult;
-import com.QuFa.profiler.service.DataStoreService;
+import com.QuFa.profiler.domain.Local;
+import com.QuFa.profiler.domain.response.ProfileTableResult;
 import com.QuFa.profiler.service.FileService;
 import com.QuFa.profiler.service.ProfileService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

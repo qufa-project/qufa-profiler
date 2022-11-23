@@ -1,4 +1,4 @@
-package com.QuFa.profiler.model.response;
+package com.QuFa.profiler.domain.response;
 
 import lombok.Getter;
 import lombok.Setter;

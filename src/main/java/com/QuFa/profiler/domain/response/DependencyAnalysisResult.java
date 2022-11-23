@@ -1,4 +1,4 @@
-package com.QuFa.profiler.model.response;
+package com.QuFa.profiler.domain.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
